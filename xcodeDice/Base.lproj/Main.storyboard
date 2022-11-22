@@ -16,13 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="d1" translatesAutoresizingMaskIntoConstraints="NO" id="UuL-vw-03D">
-                                <rect key="frame" x="0.0" y="263" width="393" height="326"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzp-az-yEJ">
-                                <rect key="frame" x="72" y="651" width="248" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzp-az-yEJ">
+                                <rect key="frame" x="77" y="773" width="239" height="25"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -31,11 +26,28 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="ButtonPress" destination="BYZ-38-t0r" eventType="touchUpInside" id="YQC-S1-xXf"/>
+                                </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="d1" translatesAutoresizingMaskIntoConstraints="NO" id="UuL-vw-03D">
+                                <rect key="frame" x="5" y="64" width="383" height="724"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="UuL-vw-03D" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="1lf-S3-Bna"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UuL-vw-03D" secondAttribute="bottom" constant="30" id="8AA-QX-eB0"/>
+                            <constraint firstItem="dzp-az-yEJ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="HOc-y9-hX6"/>
+                            <constraint firstItem="UuL-vw-03D" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="OUF-to-of4"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="UuL-vw-03D" secondAttribute="trailing" constant="5" id="RRj-Gg-vwb"/>
+                            <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="dzp-az-yEJ" secondAttribute="bottom" constant="20" id="d4E-Cq-UTP"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="dzp-az-yEJ" secondAttribute="trailing" constant="50" id="eES-Qc-MTu"/>
+                            <constraint firstItem="UuL-vw-03D" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="dzp-az-yEJ" secondAttribute="top" constant="20" id="eNl-cQ-chJ"/>
+                            <constraint firstItem="UuL-vw-03D" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zgY-4T-yh7"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="DICe" destination="UuL-vw-03D" id="Kj4-HV-n2B"/>

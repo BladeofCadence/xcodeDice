@@ -16,10 +16,10 @@
 		9347194529282232004786B4 /* xcodeDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9347194429282232004786B4 /* xcodeDiceTests.swift */; };
 		9347194F29282232004786B4 /* xcodeDiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9347194E29282232004786B4 /* xcodeDiceUITests.swift */; };
 		9347195129282232004786B4 /* xcodeDiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9347195029282232004786B4 /* xcodeDiceUITestsLaunchTests.swift */; };
-		9347195E292825BA004786B4 /* zfanfare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9347195D292825BA004786B4 /* zfanfare.mp3 */; };
-		93471960292825CD004786B4 /* failwah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9347195F292825CD004786B4 /* failwah.mp3 */; };
-		93471962292825DC004786B4 /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93471961292825DC004786B4 /* torpedo.mp3 */; };
-		93471964292825EE004786B4 /* rolldice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93471963292825EE004786B4 /* rolldice.mp3 */; };
+		93830A69292C791A008F62D4 /* zfanfare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93830A65292C791A008F62D4 /* zfanfare.mp3 */; };
+		93830A6A292C791A008F62D4 /* failwah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93830A66292C791A008F62D4 /* failwah.mp3 */; };
+		93830A6B292C791A008F62D4 /* rolldice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93830A67292C791A008F62D4 /* rolldice.mp3 */; };
+		93830A6C292C791A008F62D4 /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93830A68292C791A008F62D4 /* torpedo.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		9347194A29282232004786B4 /* xcodeDiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xcodeDiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9347194E29282232004786B4 /* xcodeDiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xcodeDiceUITests.swift; sourceTree = "<group>"; };
 		9347195029282232004786B4 /* xcodeDiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xcodeDiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9347195D292825BA004786B4 /* zfanfare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = zfanfare.mp3; path = xcodeDice/Assets.xcassets/zfanfare.dataset/zfanfare.mp3; sourceTree = "<group>"; };
-		9347195F292825CD004786B4 /* failwah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = failwah.mp3; path = xcodeDice/Assets.xcassets/failwah.dataset/failwah.mp3; sourceTree = "<group>"; };
-		93471961292825DC004786B4 /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = torpedo.mp3; path = xcodeDice/Assets.xcassets/torpedo.dataset/torpedo.mp3; sourceTree = "<group>"; };
-		93471963292825EE004786B4 /* rolldice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rolldice.mp3; path = xcodeDice/Assets.xcassets/rolldice.dataset/rolldice.mp3; sourceTree = "<group>"; };
+		93830A65292C791A008F62D4 /* zfanfare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zfanfare.mp3; sourceTree = "<group>"; };
+		93830A66292C791A008F62D4 /* failwah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = failwah.mp3; sourceTree = "<group>"; };
+		93830A67292C791A008F62D4 /* rolldice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rolldice.mp3; sourceTree = "<group>"; };
+		93830A68292C791A008F62D4 /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +87,10 @@
 		9347192129282230004786B4 = {
 			isa = PBXGroup;
 			children = (
-				93471963292825EE004786B4 /* rolldice.mp3 */,
-				93471961292825DC004786B4 /* torpedo.mp3 */,
-				9347195F292825CD004786B4 /* failwah.mp3 */,
-				9347195D292825BA004786B4 /* zfanfare.mp3 */,
+				93830A66292C791A008F62D4 /* failwah.mp3 */,
+				93830A67292C791A008F62D4 /* rolldice.mp3 */,
+				93830A68292C791A008F62D4 /* torpedo.mp3 */,
+				93830A65292C791A008F62D4 /* zfanfare.mp3 */,
 				9347192C29282230004786B4 /* xcodeDice */,
 				9347194329282232004786B4 /* xcodeDiceTests */,
 				9347194D29282232004786B4 /* xcodeDiceUITests */,
@@ -243,10 +243,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93471964292825EE004786B4 /* rolldice.mp3 in Resources */,
-				93471962292825DC004786B4 /* torpedo.mp3 in Resources */,
-				93471960292825CD004786B4 /* failwah.mp3 in Resources */,
-				9347195E292825BA004786B4 /* zfanfare.mp3 in Resources */,
+				93830A69292C791A008F62D4 /* zfanfare.mp3 in Resources */,
+				93830A6A292C791A008F62D4 /* failwah.mp3 in Resources */,
+				93830A6B292C791A008F62D4 /* rolldice.mp3 in Resources */,
+				93830A6C292C791A008F62D4 /* torpedo.mp3 in Resources */,
 				9347193A29282231004786B4 /* LaunchScreen.storyboard in Resources */,
 				9347193729282231004786B4 /* Assets.xcassets in Resources */,
 				9347193529282230004786B4 /* Main.storyboard in Resources */,
